@@ -3,7 +3,9 @@ from taipy.gui import Gui
 img_path= "logo.png"
 
 index ="""
-<|{img_path}|image|> 
+<|text-center|
+<|{img_path}|image|>
+>
 """
 #img_path is the var specified
 
