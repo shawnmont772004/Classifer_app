@@ -1,6 +1,12 @@
 from taipy.gui import Gui
 
-index = "# Shawn Monteiro"
+img_path= "logo.png"
+
+index ="""
+<|{img_path}|image|> 
+"""
+#img_path is the var specified
+
 app = Gui(page=index)
 
 if __name__ == "__main__":
