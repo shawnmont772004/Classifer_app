@@ -1,10 +1,14 @@
 from taipy.gui import Gui
 
 img_path= "logo.png"
+upld_img = " "
 
-index ="""
+index = """
 <|text-center|
 <|{img_path}|image|>
+
+Select an image from your file
+<|{upld_img}|file_selector|>
 >
 """
 #img_path is the var specified
