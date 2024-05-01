@@ -1,6 +1,7 @@
 from taipy.gui import Gui
 
-app = Gui()
+index = "<h1>Shawn Monteiro</h1>"
+app = Gui(page=index)
 
 if __name__ == "__main__":
-    app.run(use_loader=True)
+    app.run(use_reloader=True)
